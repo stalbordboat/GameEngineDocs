@@ -1,4 +1,6 @@
-obj = {:str => 'Foo', :list => ['A', 'B']}
+scores = {:power_lv => 9000, :weapons => ['Gun', 'Sword']}
 
-Log.info 'Bytes written: ', dump_data('foo.yml', obj)
-Log.info 'Object Read: ', load_data('foo.yml')
+SAVEFILE = 'savefile.yml'
+
+Log.info 'Bytes written: ', dump_data(SAVEFILE, scores)
+Log.info 'Object Read: ', load_data(SAVEFILE)
