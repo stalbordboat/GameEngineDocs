@@ -1,4 +1,4 @@
-![Icon](Docs/Imgs/3.png)
+![Icon](Imgs/3.png)
 ***
 
 ## How to use
