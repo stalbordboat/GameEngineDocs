@@ -1,14 +1,17 @@
 ![Icon](Imgs/3.png)
 ***
 
+# Game development should feel less like building a house and feel more like drawing a comic book!
+
 ## GameEngine
 
-**GameEngine** is an SDK used for game development. It's good for hobbyists and professionals alike! It provides ease of development through
-an API that is consistent, so if you learn how to do one thing, you've learned how to do the rest! This keeps the API very small. Through
-The Programming Language Ruby, we provide powerful dynamic features, such as modifiable classes and extensiblity through native C extensions!
-All you need to get started is to have project folder with the script called *start.rb*! You can package your game how like afterwards and
-share with friends and family! If these words are flying over your head because perhaps you've never programmed before, don't be worried,
-just get started! The best interface for game development is with code!
+This is the goal of **GameEngine**. This is achieved through the implementation of a very small
+and consistent API. Interfaced with The Ruby Programming Language using a small virutal machine,
+that sports a low-memory footprint. Ruby's dynamic nature makes it the perfect programming language
+to program games in! If "programming" is a scary word for you, we assure you that the consistency of
+the API makes it so that if you learn one thing you've learned them all! The API can be modified and
+extended with the Native Interface in C. You don't have sacrifice ease of use for performance!
+Jump into **GameEngine** and allow your imagination to take you were you want to go!
 
 ## How to install
 
