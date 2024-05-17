@@ -1,17 +1,10 @@
 ![Icon](Imgs/3.png)
 ***
 
-# Game development should feel less like building a house and feel more like drawing a comic book!
-
 ## GameEngine
 
-This is the goal of **GameEngine**. This is achieved through the implementation of a very small
-and consistent API. Interfaced with The Ruby Programming Language using a small virutal machine,
-that sports a low-memory footprint. Ruby's dynamic nature makes it the perfect programming language
-to program games in! If "programming" is a scary word for you, we assure you that the consistency of
-the API makes it so that if you learn one thing you've learned them all! The API can be modified and
-extended with the Native Interface in C. You don't have sacrifice ease of use for performance!
-Jump into **GameEngine** and allow your imagination to take you were you want to go!
+Game development should feel less like building a house and feel more like drawing a comic book!
+All you need to get started to create a `start.rb` file.
 
 ## How to install
 
