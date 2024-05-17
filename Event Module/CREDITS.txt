@@ -1,0 +1,12 @@
+BGM
+---
+background.ogg
+Artist - Daddy_s_Music
+Song   - perfect-beauty
+
+SE
+--
+select.wav
+
+Artist - ???
+Song   - ???
