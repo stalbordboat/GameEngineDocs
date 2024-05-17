@@ -29,6 +29,7 @@ text = Text.new('mplus-1m-regular.ttf', 'Hello, world!', 30)
 text.dest.x = Window.width  / 3.5
 text.dest.y = Window.height / 3.5
 
+# This loop will run the game until the loop is broken.
 while true
   # Advance Game State
   break if Event.quit?
