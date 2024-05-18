@@ -103,4 +103,4 @@ while true
   Renderer.draw
 end
 
-ensure Audio::Mix.close
+Audio::Mix.close
