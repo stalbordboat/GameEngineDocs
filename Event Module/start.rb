@@ -7,7 +7,7 @@ bitmap = Bitmap.new('IMG/Sprites/keyboard.png')
 sprite = Sprite.new(8, 8, bitmap)
 
 music = Music.new('Audio/BGM/background.ogg')
-music.play(-1)
+music.play(Music::PLAY_INFINITE)
 
 sound = Sound.new('Audio/SE/select.wav')
 
@@ -27,70 +27,70 @@ while true
     sprite.color.alpha = 255
     sprite.src.x = sprite.src.width
     sprite.src.y = sprite.src.height * 3
-    sound.play(0)
+    sound.play(Sound::PLAY_ONCE)
   end
 
   if Event.trigger?(Event::Keyboard::Key::X)
     sprite.color.alpha = 255
     sprite.src.x = sprite.src.width  * 7
     sprite.src.y = sprite.src.height * 2
-    sound.play(0)
+    sound.play(Sound::PLAY_ONCE)
   end
 
   if Event.trigger?(Event::Keyboard::Key::I)
     sprite.color.alpha = 255
     sprite.src.x = 0
     sprite.src.y = sprite.src.height
-    sound.play(0)
+    sound.play(Sound::PLAY_ONCE)
   end
 
   if Event.trigger?(Event::Keyboard::Key::J)
     sprite.color.alpha = 255
     sprite.src.x = sprite.src.width
     sprite.src.y = sprite.src.height
-    sound.play(0)
+    sound.play(Sound::PLAY_ONCE)
   end
 
   if Event.trigger?(Event::Keyboard::Key::K)
     sprite.color.alpha = 255
     sprite.src.x = sprite.src.width * 2
     sprite.src.y = sprite.src.height
-    sound.play(0)
+    sound.play(Sound::PLAY_ONCE)
   end
 
   if Event.trigger?(Event::Keyboard::Key::L)
     sprite.color.alpha = 255
     sprite.src.x = sprite.src.width * 3
     sprite.src.y = sprite.src.height
-    sound.play(0)
+    sound.play(Sound::PLAY_ONCE)
   end
 
   if Event.trigger?(Event::Keyboard::Key::UP)
     sprite.color.alpha = 255
     sprite.src.x = sprite.src.width  * 7
     sprite.src.y = sprite.src.height * 3
-    sound.play(0)
+    sound.play(Sound::PLAY_ONCE)
   end
 
   if Event.trigger?(Event::Keyboard::Key::DOWN)
     sprite.color.alpha = 255
     sprite.src.x = sprite.src.width  * 7
     sprite.src.y = sprite.src.height * 4
-    sound.play(0)
+    sound.play(Sound::PLAY_ONCE)
   end
 
   if Event.trigger?(Event::Keyboard::Key::LEFT)
     sprite.color.alpha = 255
     sprite.src.x = sprite.src.width  * 7
     sprite.src.y = sprite.src.height * 5
-    sound.play(0)
+    sound.play(Sound::PLAY_ONCE)
   end
 
   if Event.trigger?(Event::Keyboard::Key::RIGHT)
     sprite.color.alpha = 255
     sprite.src.x = sprite.src.width  * 7
     sprite.src.y = sprite.src.height * 6
-    sound.play(0)
+    sound.play(Sound::PLAY_ONCE)
   end
 
   Timer.wait 120
@@ -103,4 +103,4 @@ while true
   Renderer.draw
 end
 
-Audio::Mix.close
+ensure Audio::Mix.close
