@@ -52,5 +52,7 @@ in your projects directory.
 #### Music
 
 File   - music.ogg
+
 Artist - Daddy_s_Music
+
 Song   - perfect-beauty
