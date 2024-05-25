@@ -46,3 +46,11 @@ end
 
 Then just run `game` in the terminal, or double click on `game` if you've placed it
 in your projects directory.
+
+## Credits
+
+#### Music
+
+File   - music.ogg
+Artist - Daddy_s_Music
+Song   - perfect-beauty
