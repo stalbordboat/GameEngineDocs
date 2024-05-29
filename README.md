@@ -19,7 +19,7 @@ on it to run.
 
 Example of a *start.rb*:
 
-*Download the font used in this example:*
+*Place the font used in this example in the same directory as your start.rb:*
 [mplus-1m-regular.ttf](https://github.com/stalbordboat/GameEngineDocs/blob/main/Fonts/mplus-1m-regular.ttf)
 
 ```ruby
