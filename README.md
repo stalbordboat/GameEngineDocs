@@ -17,7 +17,7 @@ At the most minimal just create a *start.rb* file and run `game` from the termin
 You can also copy the `game` executable to your projects directory and double click
 on it to run.
 
-Example of a *start.rb*:
+Example of a `start.rb`:
 
 *Place the font used in this example in the same directory as your start.rb:*
 [mplus-1m-regular.ttf](https://github.com/stalbordboat/GameEngineDocs/blob/main/Fonts/mplus-1m-regular.ttf)
