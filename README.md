@@ -47,9 +47,9 @@ while true
 
   # Advance the text state each frame.
 
-  text.color.r += 15
-  text.color.g -= 5
-  text.color.b += 5
+  text.color.r += rand(15)
+  text.color.g -= rand(5)
+  text.color.b += rand(10)
 
   text.update
 
