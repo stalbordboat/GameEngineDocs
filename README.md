@@ -41,7 +41,7 @@ text.dest.y = Window.height / 3.5
 while true
   # Advance Game State
 
-  break if Event.quit? || Event.trigger?(Event::Keyboard::Key::ESC)
+  break if Event.quit? || Event.trigger?(Event::ESC_KEY)
   Event.update
   Renderer.update
 
